@@ -24,6 +24,7 @@ public class FileReader {
         String result = "";
         while (sc.hasNextLine())
             result += sc.nextLine() + "\n";
+        //CHANGE FOR TEST
 
         return result;
     }
