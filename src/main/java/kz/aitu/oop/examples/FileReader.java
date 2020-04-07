@@ -9,7 +9,12 @@ import java.util.Scanner;
 public class FileReader {
     public static void main(String[] args) throws Exception {
 
+        FileReader fileReader = new FileReader();
+
+        System.out.println(fileReader.getFile());
     }
+
+
 
     public String getFile() throws FileNotFoundException {
 
