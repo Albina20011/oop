@@ -18,7 +18,7 @@ public class FileReader {
 
     public String getFile() throws FileNotFoundException {
 
-        File file = new File("C:\\Users\\olki\\Desktop\\input.txt");
+        File file = new File("C:\\Users\\Сабит\\Desktop\\input.txt");
         Scanner sc = new Scanner(file);
 
         String result = "";
