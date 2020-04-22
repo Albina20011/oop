@@ -5,7 +5,7 @@ public class Shape{
     public boolean filled;
     //constructor number1//
 
-    public Shape(String color, boolean filled){
+    public Shape(string color, boolean filled){
         this.color=color;
         this.filled=filled;
     }
