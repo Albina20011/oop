@@ -34,7 +34,7 @@ public class Shape{
 //test all methods//
 
   public class Test{
-    public static void main(string[] args){
+    public static void main(String[] args){
         Shape mb= new Shape("red", true);
         System.out.println(mb.toString());
     }
